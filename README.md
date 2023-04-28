@@ -28,6 +28,8 @@ o	The feature in the dataset is the ‘IS_SUCCESSFUL” column.
 •	What variable(s) are neither targets nor features, and should be removed from the input data?
 o	The EIN and NAME columns are neither targets nor features, which is why we have removed them from the dataset.
 ---
+![Classification_Type_Density](https://user-images.githubusercontent.com/119131202/235037694-d595cdd6-d05d-4b91-9d2b-4893a179d174.PNG)
+
 ### Compiling, Training, and Evaluating the Model
 ---
 When compiling the model, we will utilize tensorflow keras, create layers, analyze the model structure, train the model, create a callback, and evaluate the model using test data.
