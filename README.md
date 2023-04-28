@@ -35,7 +35,10 @@ o	The EIN and NAME columns are neither targets nor features, which is why we hav
 When compiling the model, we will utilize tensorflow keras, create layers, analyze the model structure, train the model, create a callback, and evaluate the model using test data.
 ---
 •	How many neurons, layers, and activation functions did you select for your neural network model, and why?
-o	We used 4 layers, each with a different number of neurons. The first layer had 110 neurons with relu activation. The second layer had 80 neurons with the relu activation. The third layer had 40 neurons with sigmoid activation. The last layer had 20 neurons with sigmoid activation. Different activation style work better with different amount of neutrons.
+o	We used 4 layers, each with a different number of neurons. The first layer had 110 neurons with relu activation. The second layer had 80 neurons with the relu activation. The third layer had 40 neurons with sigmoid activation. The last layer had 20 neurons with sigmoid activation. Different activation style work better with different amount of neutrons. See code below:
+---
+![Layers_Neurons_Activations](https://user-images.githubusercontent.com/119131202/235038116-ce158943-c160-4e51-80ce-c551c2fb33c4.PNG)
+---
 •	Were you able to achieve the target model performance?
 o	No, the model had 71.3% accuracy, but the target model performance goal was 75%.
 •	What steps did you take to try and increase model performance?
